@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
 
         float[] mat1 = new float[]
                 {
-                        0.3f, 0.3f, 0.3f, 0, 0,
-                        0.3f, 0.3f, 0.3f, 0, 0,
-                        0.3f, 0.3f, 0.3f, 0, 0,
+                        1.5f, -0.25f, -0.25f, 0, 0,
+                        -0.250f, 1.5f, -0.25f, 0, 0,
+                        -0.25f, -0.25f, 1.5f, 0, 0,
                         0f, 0f, 0f, 1, 0};
         ColorFilter cff = imageView.getColorFilter();
         ColorMatrixColorFilter cf = new ColorMatrixColorFilter(mat1);
